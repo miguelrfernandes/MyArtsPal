@@ -11,51 +11,71 @@ Public Class Crono
     Dim numartista4 As Integer = 3
 
 
+
     Dim registo(9) As Integer
 
-    Private Sub XToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles XToolStripMenuItem.Click
+    Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, FecharToolStripMenuItem.Click
         Me.Hide()
         Cidade.Show()
     End Sub
 
 
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
-        Dim grafico As Graphics = Me.CreateGraphics
-        Dim caneta As New Pen(Color.Green, 2.0)
-        grafico.DrawRectangle(caneta, New Rectangle(PictureBox1.Location, PictureBox1.Size))
-        caneta.Dispose()
+        'grafico1.Clear(Color.White)
+        'grafico2.Clear(Color.White)
+        'grafico3.Clear(Color.White)
+        'grafico4.Clear(Color.White)
+
+        'Dim caneta As New Pen(Color.Green, 2.0)
+        'grafico1.DrawRectangle(caneta, New Rectangle(PictureBox1.Location, New Size(227, 450)))
+        'caneta.Dispose()
+
+        PictureBox1.BackColor = Color.Gray
+        PictureBox2.BackColor = Color.Gray
+        PictureBox3.BackColor = Color.Gray
+        PictureBox4.BackColor = Color.Gray
+
+        PictureBox1.BackColor = Color.Green
 
         selecionado = numartista1
     End Sub
 
     Private Sub PictureBox2_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox2.Click
-        Dim grafico As Graphics = Me.CreateGraphics
-        Dim caneta As New Pen(Color.Green, 2.0)
-        grafico.DrawRectangle(caneta, New Rectangle(PictureBox2.Location, PictureBox2.Size))
-        caneta.Dispose()
+        PictureBox1.BackColor = Color.Gray
+        PictureBox2.BackColor = Color.Gray
+        PictureBox3.BackColor = Color.Gray
+        PictureBox4.BackColor = Color.Gray
+
+        PictureBox2.BackColor = Color.Green
+
 
         selecionado = numartista2
     End Sub
 
     Private Sub PictureBox3_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox3.Click
-        Dim grafico As Graphics = Me.CreateGraphics
-        Dim caneta As New Pen(Color.Green, 2.0)
-        grafico.DrawRectangle(caneta, New Rectangle(PictureBox3.Location, PictureBox3.Size))
-        caneta.Dispose()
+        PictureBox1.BackColor = Color.Gray
+        PictureBox2.BackColor = Color.Gray
+        PictureBox3.BackColor = Color.Gray
+        PictureBox4.BackColor = Color.Gray
+
+        PictureBox3.BackColor = Color.Green
 
         selecionado = numartista3
     End Sub
 
     Private Sub PictureBox4_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox4.Click
-        Dim grafico As Graphics = Me.CreateGraphics
-        Dim caneta As New Pen(Color.Green, 2.0)
-        grafico.DrawRectangle(caneta, New Rectangle(PictureBox4.Location, PictureBox4.Size))
-        caneta.Dispose()
+        PictureBox1.BackColor = Color.Gray
+        PictureBox2.BackColor = Color.Gray
+        PictureBox3.BackColor = Color.Gray
+        PictureBox4.BackColor = Color.Gray
+
+        PictureBox4.BackColor = Color.Green
 
         selecionado = numartista4
     End Sub
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Dim grafico As Graphics = Me.CreateGraphics
 
         Randomize()
 
@@ -82,6 +102,7 @@ Public Class Crono
         Dim data1 As String
         Input(1, data1)
         data1 = 1500 ' apagar
+        Label2.Text = data1
         Dim posartista1 As Integer = ((data1 - 1000) * 1024) / 1000
         'MsgBox(posartista1) 'apagar
         FileClose(1)
@@ -90,6 +111,7 @@ Public Class Crono
         Dim data2 As String
         Input(1, data2)
         data2 = 1700 ' apagar
+        Label3.Text = data2
         Dim posartista2 As Integer = ((data2 - 1000) * 1024) / 1000
         'MsgBox(posartista2) 'apagar
         'posartista2 = 200 ' apagar
@@ -100,6 +122,7 @@ Public Class Crono
         Input(1, data3)
         data3 = 1300 ' apagar
         Dim posartista3 As Integer = (data3 - 1000) * 1024 / 1000
+        Label4.Text = data3
         'MsgBox(posartista3) 'apagar
         'posartista3 = 400 ' apagar
         FileClose(1)
@@ -109,6 +132,7 @@ Public Class Crono
         Input(1, data4)
         data4 = 1900 ' apagar
         Dim posartista4 As Integer = (data4 - 1000) * 1024 / 1000
+        Label5.Text = data4
         'MsgBox(posartista4) 'apagar
         'posartista4 = 750 ' apagar
         FileClose(1)
@@ -192,4 +216,5 @@ Public Class Crono
             End If
         End If
     End Sub
+
 End Class
