@@ -58,13 +58,11 @@ Partial Class Casino
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 690)
+        Me.ClientSize = New System.Drawing.Size(1008, 729)
         Me.Controls.Add(Me.bVoltar)
         Me.Controls.Add(Me.bRoleta)
         Me.Controls.Add(Me.bSpaceInvaders)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(1024, 728)
-        Me.MinimumSize = New System.Drawing.Size(1024, 728)
         Me.Name = "Casino"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Casino"

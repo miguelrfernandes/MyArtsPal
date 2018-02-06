@@ -150,13 +150,13 @@ Public Class Crono
         Button5.Show()
 
         Button2.Text = data1
-        Button2.Location = New Point(posartista1, 600)
+        Button2.Location = New Point(posartista1, 670)
         Button3.Text = data2
-        Button3.Location = New Point(posartista2, 580)
+        Button3.Location = New Point(posartista2, 670)
         Button4.Text = data3
-        Button4.Location = New Point(posartista3, 560)
+        Button4.Location = New Point(posartista3, 670)
         Button5.Text = data4
-        Button5.Location = New Point(posartista4, 540)
+        Button5.Location = New Point(posartista4, 670)
 
         PictureBox1.Show()
         PictureBox2.Show()
