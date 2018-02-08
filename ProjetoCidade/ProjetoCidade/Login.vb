@@ -40,4 +40,8 @@ Public Class Login
     Private Sub FecharToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FecharToolStripMenuItem.Click, Button2.Click, ToolStripMenuItem1.Click
         Me.Close()
     End Sub
+
+    Private Sub MenuStrip1_ItemClicked(sender As System.Object, e As System.Windows.Forms.ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+
+    End Sub
 End Class

@@ -31,37 +31,35 @@ Partial Class Login
         Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'tbNome
         '
-        Me.tbNome.Location = New System.Drawing.Point(444, 247)
-        Me.tbNome.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbNome.Location = New System.Drawing.Point(260, 241)
         Me.tbNome.Name = "tbNome"
-        Me.tbNome.Size = New System.Drawing.Size(208, 22)
+        Me.tbNome.Size = New System.Drawing.Size(157, 20)
         Me.tbNome.TabIndex = 2
         '
         'tbPassword
         '
-        Me.tbPassword.Location = New System.Drawing.Point(444, 362)
-        Me.tbPassword.Margin = New System.Windows.Forms.Padding(4)
+        Me.tbPassword.Location = New System.Drawing.Point(260, 283)
         Me.tbPassword.Name = "tbPassword"
         Me.tbPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.tbPassword.Size = New System.Drawing.Size(208, 22)
+        Me.tbPassword.Size = New System.Drawing.Size(157, 20)
         Me.tbPassword.TabIndex = 3
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem, Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1097, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(700, 24)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -69,81 +67,84 @@ Partial Class Login
         '
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntrarToolStripMenuItem, Me.FecharToolStripMenuItem})
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
         'EntrarToolStripMenuItem
         '
         Me.EntrarToolStripMenuItem.Name = "EntrarToolStripMenuItem"
-        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(121, 24)
+        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.EntrarToolStripMenuItem.Text = "Entrar"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(121, 24)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.FecharToolStripMenuItem.Text = "Fechar"
         '
         'AjudaToolStripMenuItem
         '
         Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerAjudaToolStripMenuItem, Me.SobreToolStripMenuItem})
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.AjudaToolStripMenuItem.Text = "Ajuda"
         '
         'VerAjudaToolStripMenuItem
         '
         Me.VerAjudaToolStripMenuItem.Name = "VerAjudaToolStripMenuItem"
-        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
+        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
         Me.VerAjudaToolStripMenuItem.Text = "Ver Ajuda"
         '
         'SobreToolStripMenuItem
         '
         Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
+        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
         Me.SobreToolStripMenuItem.Text = "Sobre"
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(26, 20)
+        Me.ToolStripMenuItem1.Text = "X"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1635, 146)
+        Me.Button1.Location = New System.Drawing.Point(1226, 119)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Fechar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(493, 465)
+        Me.Button2.Location = New System.Drawing.Point(305, 381)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(56, 19)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Fechar"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(493, 431)
+        Me.Button3.Location = New System.Drawing.Point(305, 343)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(56, 19)
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Entrar"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(30, 24)
-        Me.ToolStripMenuItem1.Text = "X"
-        '
         'Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.redd_angelo_375804
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1097, 730)
+        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.New_York_Skyline_1030x686
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(700, 700)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -152,10 +153,7 @@ Partial Class Login
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(1097, 730)
-        Me.MinimumSize = New System.Drawing.Size(1097, 730)
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"

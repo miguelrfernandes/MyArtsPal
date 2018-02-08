@@ -67,6 +67,10 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.New_York_Skyline_1030x686">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.redd_angelo_375804">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -80,6 +84,10 @@ MyArtsPal
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Sem_Título_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.transferir__1_">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
