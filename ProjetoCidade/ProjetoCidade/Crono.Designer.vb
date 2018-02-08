@@ -37,6 +37,7 @@ Partial Class Crono
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,6 +59,7 @@ Partial Class Crono
         'XToolStripMenuItem
         '
         Me.XToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.XToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
         Me.XToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
         Me.XToolStripMenuItem.Text = "X"
@@ -65,6 +67,7 @@ Partial Class Crono
         'MenuToolStripMenuItem
         '
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FecharToolStripMenuItem})
+        Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
@@ -72,7 +75,7 @@ Partial Class Crono
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FecharToolStripMenuItem.Text = "Fechar"
         '
         'PictureBox1
@@ -90,12 +93,14 @@ Partial Class Crono
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(448, 110)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label1.Location = New System.Drawing.Point(375, 155)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(143, 13)
+        Me.Label1.Size = New System.Drawing.Size(261, 20)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Quando nasceu este artista?"
-        Me.Label1.Visible = False
+        Me.Label1.Text = "Seleciona uma das seguintes obras"
         '
         'PictureBox2
         '
@@ -135,7 +140,7 @@ Partial Class Crono
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(349, 408)
+        Me.Button1.Location = New System.Drawing.Point(337, 376)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(343, 193)
         Me.Button1.TabIndex = 4
@@ -148,8 +153,8 @@ Partial Class Crono
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(50, 650)
+        Me.Button2.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button2.Location = New System.Drawing.Point(49, 609)
         Me.Button2.Margin = New System.Windows.Forms.Padding(0)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(57, 38)
@@ -164,8 +169,8 @@ Partial Class Crono
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Location = New System.Drawing.Point(337, 650)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button3.Location = New System.Drawing.Point(327, 609)
         Me.Button3.Margin = New System.Windows.Forms.Padding(0)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(57, 38)
@@ -180,8 +185,8 @@ Partial Class Crono
         Me.Button4.FlatAppearance.BorderSize = 0
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Location = New System.Drawing.Point(518, 650)
+        Me.Button4.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button4.Location = New System.Drawing.Point(515, 609)
         Me.Button4.Margin = New System.Windows.Forms.Padding(0)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(57, 38)
@@ -196,8 +201,8 @@ Partial Class Crono
         Me.Button5.FlatAppearance.BorderSize = 0
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.Black
-        Me.Button5.Location = New System.Drawing.Point(901, 650)
+        Me.Button5.ForeColor = System.Drawing.SystemColors.WindowFrame
+        Me.Button5.Location = New System.Drawing.Point(928, 506)
         Me.Button5.Margin = New System.Windows.Forms.Padding(0)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(57, 38)
@@ -211,12 +216,24 @@ Partial Class Crono
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Escala_Cronológica
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox5.Location = New System.Drawing.Point(0, 27)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, -117)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(1024, 661)
         Me.PictureBox5.TabIndex = 13
         Me.PictureBox5.TabStop = False
         Me.PictureBox5.Visible = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label2.Location = New System.Drawing.Point(349, 438)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(331, 20)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Seleciona a data correspondente a essa obra"
         '
         'Crono
         '
@@ -224,12 +241,13 @@ Partial Class Crono
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Background3
         Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
@@ -267,4 +285,5 @@ Partial Class Crono
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents FecharToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

@@ -195,25 +195,32 @@ Public Class Crono
             Case 1
                 PictureBox1.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button2.Text = data
-                Button2.Location = New Point(posartista, 670)
+                Button2.Location = New Point(posartista, 523)
                 numartista1 = numartista
             Case 2
                 PictureBox2.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button3.Text = data
-                Button3.Location = New Point(posartista, 670)
+                Button3.Location = New Point(posartista, 523)
                 numartista2 = numartista
             Case 3
                 PictureBox3.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button4.Text = data
-                Button4.Location = New Point(posartista, 670)
+                Button4.Location = New Point(posartista, 523)
                 numartista3 = numartista
             Case 4
                 PictureBox4.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button5.Text = data
-                Button5.Location = New Point(posartista, 670)
+                Button5.Location = New Point(posartista, 523)
                 numartista4 = numartista
         End Select
     End Sub
 
 
+    Private Sub Label1_Click(sender As System.Object, e As System.EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As System.Object, e As System.EventArgs) Handles Label2.Click
+
+    End Sub
 End Class
