@@ -94,7 +94,7 @@ Public Class Crono
         PictureBox4.Show()
         Label1.Show()
 
-        PictureBox6.Show()
+        'PictureBox6.Show()
 
         Button1.Hide()
 

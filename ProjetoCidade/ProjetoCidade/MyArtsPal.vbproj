@@ -252,6 +252,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone.ico" />
+    <None Include="Resources\Background3.png" />
+    <None Include="Resources\Background2.png" />
+    <None Include="Resources\Background1.png" />
+    <None Include="Resources\Background.png" />
     <None Include="Resources\moldura.png" />
     <None Include="Resources\New-York-Skyline-1030x686.jpg" />
     <None Include="Resources\transferir %281%29.jpg" />

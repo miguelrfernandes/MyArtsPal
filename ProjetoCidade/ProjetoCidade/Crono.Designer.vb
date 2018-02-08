@@ -37,14 +37,12 @@ Partial Class Crono
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -74,16 +72,16 @@ Partial Class Crono
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.FecharToolStripMenuItem.Text = "Fechar"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Gray
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox1.Location = New System.Drawing.Point(78, 145)
+        Me.PictureBox1.Location = New System.Drawing.Point(59, 243)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(190, 207)
+        Me.PictureBox1.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -92,7 +90,7 @@ Partial Class Crono
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(443, 41)
+        Me.Label1.Location = New System.Drawing.Point(448, 110)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(143, 13)
         Me.Label1.TabIndex = 2
@@ -103,9 +101,9 @@ Partial Class Crono
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Gray
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Location = New System.Drawing.Point(287, 145)
+        Me.PictureBox2.Location = New System.Drawing.Point(312, 243)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(225, 244)
+        Me.PictureBox2.Size = New System.Drawing.Size(143, 156)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
@@ -115,9 +113,9 @@ Partial Class Crono
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Gray
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.Location = New System.Drawing.Point(518, 145)
+        Me.PictureBox3.Location = New System.Drawing.Point(569, 243)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(225, 244)
+        Me.PictureBox3.Size = New System.Drawing.Size(141, 156)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
@@ -127,9 +125,9 @@ Partial Class Crono
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Gray
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox4.Location = New System.Drawing.Point(764, 145)
+        Me.PictureBox4.Location = New System.Drawing.Point(825, 243)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(225, 244)
+        Me.PictureBox4.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 3
         Me.PictureBox4.TabStop = False
@@ -137,7 +135,7 @@ Partial Class Crono
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(373, 406)
+        Me.Button1.Location = New System.Drawing.Point(349, 408)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(343, 193)
         Me.Button1.TabIndex = 4
@@ -199,7 +197,7 @@ Partial Class Crono
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Black
-        Me.Button5.Location = New System.Drawing.Point(917, 650)
+        Me.Button5.Location = New System.Drawing.Point(901, 650)
         Me.Button5.Margin = New System.Windows.Forms.Padding(0)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(57, 38)
@@ -220,27 +218,13 @@ Partial Class Crono
         Me.PictureBox5.TabStop = False
         Me.PictureBox5.Visible = False
         '
-        'PictureBox6
-        '
-        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox6.Image = Global.MyArtsPal.My.Resources.Resources.moldura
-        Me.PictureBox6.Location = New System.Drawing.Point(12, 75)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(328, 344)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox6.TabIndex = 14
-        Me.PictureBox6.TabStop = False
-        Me.PictureBox6.Visible = False
-        '
         'Crono
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.bigstock_empty_room_with_blank_wall_and_50388350
+        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Background3
         Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button5)
@@ -264,7 +248,6 @@ Partial Class Crono
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -284,5 +267,4 @@ Partial Class Crono
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents FecharToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
 End Class
