@@ -252,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone.ico" />
+    <None Include="Resources\moldura.png" />
     <None Include="Resources\New-York-Skyline-1030x686.jpg" />
     <None Include="Resources\transferir %281%29.jpg" />
   </ItemGroup>
