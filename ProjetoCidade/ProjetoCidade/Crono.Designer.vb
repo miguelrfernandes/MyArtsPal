@@ -52,7 +52,8 @@ Partial Class Crono
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.MenuToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1024, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1365, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -61,7 +62,7 @@ Partial Class Crono
         Me.XToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.XToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
-        Me.XToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
+        Me.XToolStripMenuItem.Size = New System.Drawing.Size(30, 24)
         Me.XToolStripMenuItem.Text = "X"
         '
         'MenuToolStripMenuItem
@@ -69,22 +70,23 @@ Partial Class Crono
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FecharToolStripMenuItem})
         Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(121, 24)
         Me.FecharToolStripMenuItem.Text = "Fechar"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Gray
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox1.Location = New System.Drawing.Point(59, 243)
+        Me.PictureBox1.Location = New System.Drawing.Point(79, 299)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(142, 156)
+        Me.PictureBox1.Size = New System.Drawing.Size(189, 192)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -96,19 +98,22 @@ Partial Class Crono
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(375, 155)
+        Me.Label1.Location = New System.Drawing.Point(500, 191)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(261, 20)
+        Me.Label1.Size = New System.Drawing.Size(322, 25)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Seleciona uma das seguintes obras"
+        Me.Label1.Visible = False
         '
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Gray
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Location = New System.Drawing.Point(312, 243)
+        Me.PictureBox2.Location = New System.Drawing.Point(416, 299)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(143, 156)
+        Me.PictureBox2.Size = New System.Drawing.Size(191, 192)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
@@ -118,9 +123,10 @@ Partial Class Crono
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Gray
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.Location = New System.Drawing.Point(569, 243)
+        Me.PictureBox3.Location = New System.Drawing.Point(759, 299)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(141, 156)
+        Me.PictureBox3.Size = New System.Drawing.Size(188, 192)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
@@ -130,9 +136,10 @@ Partial Class Crono
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Gray
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox4.Location = New System.Drawing.Point(825, 243)
+        Me.PictureBox4.Location = New System.Drawing.Point(1100, 299)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(142, 156)
+        Me.PictureBox4.Size = New System.Drawing.Size(189, 192)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 3
         Me.PictureBox4.TabStop = False
@@ -140,9 +147,10 @@ Partial Class Crono
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(337, 376)
+        Me.Button1.Location = New System.Drawing.Point(449, 463)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(343, 193)
+        Me.Button1.Size = New System.Drawing.Size(457, 238)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Começar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -154,10 +162,10 @@ Partial Class Crono
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button2.Location = New System.Drawing.Point(49, 609)
+        Me.Button2.Location = New System.Drawing.Point(65, 750)
         Me.Button2.Margin = New System.Windows.Forms.Padding(0)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(57, 38)
+        Me.Button2.Size = New System.Drawing.Size(76, 47)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "9999"
         Me.Button2.UseVisualStyleBackColor = False
@@ -170,10 +178,10 @@ Partial Class Crono
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button3.Location = New System.Drawing.Point(327, 609)
+        Me.Button3.Location = New System.Drawing.Point(436, 750)
         Me.Button3.Margin = New System.Windows.Forms.Padding(0)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(57, 38)
+        Me.Button3.Size = New System.Drawing.Size(76, 47)
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "Button3"
         Me.Button3.UseVisualStyleBackColor = False
@@ -186,10 +194,10 @@ Partial Class Crono
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button4.Location = New System.Drawing.Point(515, 609)
+        Me.Button4.Location = New System.Drawing.Point(687, 750)
         Me.Button4.Margin = New System.Windows.Forms.Padding(0)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(57, 38)
+        Me.Button4.Size = New System.Drawing.Size(76, 47)
         Me.Button4.TabIndex = 7
         Me.Button4.Text = "Button4"
         Me.Button4.UseVisualStyleBackColor = False
@@ -202,10 +210,10 @@ Partial Class Crono
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Button5.Location = New System.Drawing.Point(928, 506)
+        Me.Button5.Location = New System.Drawing.Point(1237, 623)
         Me.Button5.Margin = New System.Windows.Forms.Padding(0)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(57, 38)
+        Me.Button5.Size = New System.Drawing.Size(76, 47)
         Me.Button5.TabIndex = 8
         Me.Button5.Text = "Button5"
         Me.Button5.UseVisualStyleBackColor = False
@@ -216,9 +224,10 @@ Partial Class Crono
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Escala_Cronológica
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox5.Location = New System.Drawing.Point(0, -117)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, -144)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(1024, 661)
+        Me.PictureBox5.Size = New System.Drawing.Size(1365, 814)
         Me.PictureBox5.TabIndex = 13
         Me.PictureBox5.TabStop = False
         Me.PictureBox5.Visible = False
@@ -229,18 +238,19 @@ Partial Class Crono
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(349, 438)
+        Me.Label2.Location = New System.Drawing.Point(465, 539)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(331, 20)
+        Me.Label2.Size = New System.Drawing.Size(406, 25)
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "Seleciona a data correspondente a essa obra"
         '
         'Crono
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Background3
-        Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.ClientSize = New System.Drawing.Size(1365, 945)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
@@ -256,6 +266,7 @@ Partial Class Crono
         Me.Controls.Add(Me.PictureBox5)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Crono"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"

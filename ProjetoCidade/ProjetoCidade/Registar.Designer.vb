@@ -34,12 +34,15 @@ Partial Class Registar
         Me.AbrirAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tbUser
         '
-        Me.tbUser.Location = New System.Drawing.Point(95, 90)
+        Me.tbUser.Location = New System.Drawing.Point(217, 345)
         Me.tbUser.Margin = New System.Windows.Forms.Padding(4)
         Me.tbUser.Name = "tbUser"
         Me.tbUser.Size = New System.Drawing.Size(132, 22)
@@ -47,7 +50,7 @@ Partial Class Registar
         '
         'tbPassword
         '
-        Me.tbPassword.Location = New System.Drawing.Point(95, 137)
+        Me.tbPassword.Location = New System.Drawing.Point(217, 394)
         Me.tbPassword.Margin = New System.Windows.Forms.Padding(4)
         Me.tbPassword.Name = "tbPassword"
         Me.tbPassword.Size = New System.Drawing.Size(132, 22)
@@ -55,7 +58,7 @@ Partial Class Registar
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(95, 206)
+        Me.Button1.Location = New System.Drawing.Point(173, 466)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 28)
@@ -65,7 +68,7 @@ Partial Class Registar
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(203, 206)
+        Me.Button2.Location = New System.Drawing.Point(281, 466)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 28)
@@ -78,7 +81,7 @@ Partial Class Registar
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem, Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(379, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(600, 28)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -127,11 +130,32 @@ Partial Class Registar
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(30, 24)
         Me.ToolStripMenuItem1.Text = "X"
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Cão", "Gato", "Pássaro"})
+        Me.ComboBox1.Location = New System.Drawing.Point(217, 263)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
+        Me.ComboBox1.TabIndex = 3
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(195, 63)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(186, 168)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
+        '
         'Registar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(379, 321)
+        Me.ClientSize = New System.Drawing.Size(600, 600)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.tbPassword)
@@ -145,6 +169,7 @@ Partial Class Registar
         Me.Text = "Regista a tua conta"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -161,4 +186,6 @@ Partial Class Registar
     Friend WithEvents AbrirAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SobreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

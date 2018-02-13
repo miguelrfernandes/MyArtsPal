@@ -7,6 +7,8 @@ Public Class Registar
     Private Sub registar()
         Dim utilizador As String = tbUser.Text
         Dim password As String = tbPassword.Text
+        Dim avatar As Integer = ComboBox1.SelectedIndex
+        MsgBox(avatar)
         If utilizador <> "" And password <> "" Then
             Dim path As String = Directory.GetCurrentDirectory()
 
@@ -14,6 +16,7 @@ Public Class Registar
             FileOpen(1, path & "\utilizadores.txt", OpenMode.Input)
             Input(1, Total)
             For i = 1 To Total
+                Input(1, utilizadores(i, 0))
                 Input(1, utilizadores(i, 1))
                 Input(1, utilizadores(i, 2))
             Next i
@@ -22,10 +25,10 @@ Public Class Registar
             'escrever ficheiro
             FileOpen(1, path & "\utilizadores.txt", OpenMode.Output)
             Total += 1
-            utilizadores(Total, 1) = utilizador : utilizadores(Total, 2) = password
+            utilizadores(Total, 0) = utilizador : utilizadores(Total, 1) = password : utilizadores(Total, 2) = avatar
             WriteLine(1, Total)
             For i = 1 To Total
-                WriteLine(1, utilizadores(i, 1), utilizadores(i, 2))
+                WriteLine(1, utilizadores(i, 0), utilizadores(i, 1), utilizadores(i, 2))
             Next i
             FileClose(1)
 
@@ -49,5 +52,11 @@ Public Class Registar
 
     Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SobreToolStripMenuItem.Click
         Sobre.Show()
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComboBox1.SelectedIndexChanged
+        Dim avatar As Integer = ComboBox1.SelectedIndex
+        Dim path As String = Directory.GetCurrentDirectory()
+        PictureBox1.Image = Image.FromFile(path & "\avatar\" & avatar & ".jpg")
     End Sub
 End Class

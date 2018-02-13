@@ -10,7 +10,9 @@ Public Class Crono
     Dim numartista3 As Integer = 2
     Dim numartista4 As Integer = 3
 
+    Dim correto() As Integer = {0, 0, 0, 0}
 
+    Dim contadordeartistas As Integer = 0
 
     Dim registo(11) As Integer
 
@@ -21,46 +23,22 @@ Public Class Crono
 
 
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
-        PictureBox1.BackColor = Color.Gray
-        PictureBox2.BackColor = Color.Gray
-        PictureBox3.BackColor = Color.Gray
-        PictureBox4.BackColor = Color.Gray
-
-        PictureBox1.BackColor = Color.Green
-
+        cores(1)
         selecionado = numartista1
     End Sub
 
     Private Sub PictureBox2_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox2.Click
-        PictureBox1.BackColor = Color.Gray
-        PictureBox2.BackColor = Color.Gray
-        PictureBox3.BackColor = Color.Gray
-        PictureBox4.BackColor = Color.Gray
-
-        PictureBox2.BackColor = Color.Green
-
+        cores(2)
         selecionado = numartista2
     End Sub
 
     Private Sub PictureBox3_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox3.Click
-        PictureBox1.BackColor = Color.Gray
-        PictureBox2.BackColor = Color.Gray
-        PictureBox3.BackColor = Color.Gray
-        PictureBox4.BackColor = Color.Gray
-
-        PictureBox3.BackColor = Color.Green
-
+        cores(3)
         selecionado = numartista3
     End Sub
 
     Private Sub PictureBox4_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox4.Click
-        PictureBox1.BackColor = Color.Gray
-        PictureBox2.BackColor = Color.Gray
-        PictureBox3.BackColor = Color.Gray
-        PictureBox4.BackColor = Color.Gray
-
-        PictureBox4.BackColor = Color.Green
-
+        cores(4)
         selecionado = numartista4
     End Sub
 
@@ -86,6 +64,7 @@ Public Class Crono
 
         PictureBox5.Show()
 
+        Label1.Show()
 
 
         PictureBox1.Show()
@@ -106,46 +85,86 @@ Public Class Crono
         Else
             If (selecionado = numartista1) Then
                 MsgBox("Correto")
-                mudarquadro(1)
+                PictureBox1.BackColor = Color.Green
+                correto(0) = 1
+                contadordeartistas += 1
+                Button2.Hide()
+                If (contadordeartistas = 4) Then
+                    contadordeartistas = 0
+                    mudarquadro(1)
+                    mudarquadro(2)
+                    mudarquadro(3)
+                    mudarquadro(4)
+                End If
             Else
                 MsgBox("Tenta de novo")
             End If
         End If
     End Sub
 
-    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        If (selecionado = 0) Then
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        If (selecionado = -1) Then
             MsgBox("Seleciona um artista")
         Else
             If (selecionado = numartista2) Then
                 MsgBox("Correto")
-                mudarquadro(2)
+                PictureBox2.BackColor = Color.Green
+                correto(1) = 1
+                contadordeartistas += 1
+                Button3.Hide()
+                If (contadordeartistas = 4) Then
+                    contadordeartistas = 0
+                    mudarquadro(1)
+                    mudarquadro(2)
+                    mudarquadro(3)
+                    mudarquadro(4)
+                End If
             Else
                 MsgBox("Tenta de novo")
             End If
         End If
     End Sub
 
-    Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
-        If (selecionado = 0) Then
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        If (selecionado = -1) Then
             MsgBox("Seleciona um artista")
         Else
             If (selecionado = numartista3) Then
                 MsgBox("Correto")
-                mudarquadro(3)
+                PictureBox3.BackColor = Color.Green
+                correto(2) = 1
+                contadordeartistas += 1
+                Button4.Hide()
+                If (contadordeartistas = 4) Then
+                    contadordeartistas = 0
+                    mudarquadro(1)
+                    mudarquadro(2)
+                    mudarquadro(3)
+                    mudarquadro(4)
+                End If
             Else
                 MsgBox("Tenta de novo")
             End If
         End If
     End Sub
 
-    Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
-        If (selecionado = 0) Then
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        If (selecionado = -1) Then
             MsgBox("Seleciona um artista")
         Else
             If (selecionado = numartista4) Then
                 MsgBox("Correto")
-                mudarquadro(4)
+                PictureBox4.BackColor = Color.Green
+                correto(3) = 1
+                contadordeartistas += 1
+                Button5.Hide()
+                If (contadordeartistas = 4) Then
+                    contadordeartistas = 0
+                    mudarquadro(1)
+                    mudarquadro(2)
+                    mudarquadro(3)
+                    mudarquadro(4)
+                End If
             Else
                 MsgBox("Tenta de novo")
             End If
@@ -153,8 +172,60 @@ Public Class Crono
     End Sub
 
   
+    Private Sub cores(ByVal quadroselecionado As Integer)
+        If (correto(0) = 0) Then
+            PictureBox1.BackColor = Color.Gray
+        Else
+            PictureBox1.BackColor = Color.Green
+        End If
+        If (correto(1) = 0) Then
+            PictureBox2.BackColor = Color.Gray
+        Else
+            PictureBox2.BackColor = Color.Green
+        End If
+        If (correto(2) = 0) Then
+            PictureBox3.BackColor = Color.Gray
+        Else
+            PictureBox3.BackColor = Color.Green
+        End If
+        If (correto(3) = 0) Then
+            PictureBox4.BackColor = Color.Gray
+        Else
+            PictureBox4.BackColor = Color.Green
+        End If
+
+
+        Select Case quadroselecionado
+            Case 1
+                PictureBox1.BackColor = Color.Blue
+            Case 2
+                PictureBox2.BackColor = Color.Blue
+            Case 3
+                PictureBox3.BackColor = Color.Blue
+            Case 4
+                PictureBox4.BackColor = Color.Blue
+        End Select
+
+    End Sub
+
 
     Private Sub mudarquadro(ByVal quadro As Integer)
+
+        For i As Integer = 0 To 3
+            correto(i) = 0
+        Next
+
+        PictureBox1.BackColor = Color.Gray
+        PictureBox2.BackColor = Color.Gray
+        PictureBox3.BackColor = Color.Gray
+        PictureBox4.BackColor = Color.Gray
+
+
+        Button2.Show()
+        Button3.Show()
+        Button4.Show()
+        Button5.Show()
+
 
         Randomize()
         Dim numartista As Integer
@@ -186,7 +257,7 @@ Public Class Crono
         FileOpen(1, path & "\artistas\" & numartista & ".txt", OpenMode.Input)
         Dim data As String
         Input(1, data)
-        Dim posartista As Integer = (((data - 1000) * 917) / 1000) + 21
+        Dim posartista As Integer = (((Data - 1000) * 917) / 1000) + 21
         FileClose(1)
 
 
@@ -216,11 +287,11 @@ Public Class Crono
     End Sub
 
 
-    Private Sub Label1_Click(sender As System.Object, e As System.EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
 
     End Sub
 
-    Private Sub Label2_Click(sender As System.Object, e As System.EventArgs) Handles Label2.Click
+    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
 
     End Sub
 End Class
