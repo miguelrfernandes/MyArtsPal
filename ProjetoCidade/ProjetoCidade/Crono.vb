@@ -197,13 +197,13 @@ Public Class Crono
 
         Select Case quadroselecionado
             Case 1
-                PictureBox1.BackColor = Color.Blue
+                PictureBox1.BackColor = Color.White
             Case 2
-                PictureBox2.BackColor = Color.Blue
+                PictureBox2.BackColor = Color.White
             Case 3
-                PictureBox3.BackColor = Color.Blue
+                PictureBox3.BackColor = Color.White
             Case 4
-                PictureBox4.BackColor = Color.Blue
+                PictureBox4.BackColor = Color.White
         End Select
 
     End Sub
@@ -266,22 +266,22 @@ Public Class Crono
             Case 1
                 PictureBox1.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button2.Text = data
-                Button2.Location = New Point(posartista, 523)
+                Button2.Location = New Point(posartista, 655)
                 numartista1 = numartista
             Case 2
                 PictureBox2.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button3.Text = data
-                Button3.Location = New Point(posartista, 523)
+                Button3.Location = New Point(posartista, 655)
                 numartista2 = numartista
             Case 3
                 PictureBox3.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button4.Text = data
-                Button4.Location = New Point(posartista, 523)
+                Button4.Location = New Point(posartista, 655)
                 numartista3 = numartista
             Case 4
                 PictureBox4.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button5.Text = data
-                Button5.Location = New Point(posartista, 523)
+                Button5.Location = New Point(posartista, 655)
                 numartista4 = numartista
         End Select
     End Sub
@@ -292,6 +292,10 @@ Public Class Crono
     End Sub
 
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox5.Click
 
     End Sub
 End Class

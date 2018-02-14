@@ -37,13 +37,17 @@ Public Class Cidade
         Dim avatarnumero As Integer = utilizadores(utilizadornumero, 2)
         PictureBox1.Image = Image.FromFile(path & "\avatar\" & avatarnumero & ".jpg")
 
-        Label1.Text = utilizadornumero.ToString + "Bem-vindo " + nomedeutilizador
+        Label1.Text = utilizadornumero.ToString + " Bem-vindo " + nomedeutilizador
     End Sub
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
         Me.Hide()
 
         Crono.Show()
+
+    End Sub
+
+    Private Sub Label1_Click(sender As System.Object, e As System.EventArgs) Handles Label1.Click
 
     End Sub
 End Class

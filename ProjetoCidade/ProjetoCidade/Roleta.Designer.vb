@@ -160,6 +160,7 @@ Partial Class Roleta
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem, Me.X})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
@@ -171,6 +172,7 @@ Partial Class Roleta
         'MenuToolStripMenuItem
         '
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.JogarToolStripMenuItem, Me.FecharToolStripMenuItem})
+        Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
@@ -184,12 +186,13 @@ Partial Class Roleta
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
-        Me.FecharToolStripMenuItem.Text = "Fechar"
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
         '
         Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerAjudaToolStripMenuItem, Me.SobreToolStripMenuItem})
+        Me.AjudaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.WindowText
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
         Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.AjudaToolStripMenuItem.Text = "Ajuda"
@@ -209,6 +212,7 @@ Partial Class Roleta
         'X
         '
         Me.X.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.X.ForeColor = System.Drawing.SystemColors.ControlText
         Me.X.Name = "X"
         Me.X.Size = New System.Drawing.Size(26, 20)
         Me.X.Text = "X"
@@ -218,8 +222,8 @@ Partial Class Roleta
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.roletaimagem
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1024, 728)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.voltar)
         Me.Controls.Add(Me.lbResultado)
         Me.Controls.Add(Me.lbNumero)

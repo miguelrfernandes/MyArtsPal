@@ -46,10 +46,9 @@ Partial Class Cidade
         '
         'sair
         '
-        Me.sair.Location = New System.Drawing.Point(147, 465)
-        Me.sair.Margin = New System.Windows.Forms.Padding(4)
+        Me.sair.Location = New System.Drawing.Point(110, 378)
         Me.sair.Name = "sair"
-        Me.sair.Size = New System.Drawing.Size(100, 28)
+        Me.sair.Size = New System.Drawing.Size(75, 23)
         Me.sair.TabIndex = 7
         Me.sair.Text = "Sair"
         Me.sair.UseVisualStyleBackColor = True
@@ -60,8 +59,8 @@ Partial Class Cidade
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem, Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1365, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1024, 24)
         Me.MenuStrip1.TabIndex = 8
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -70,38 +69,38 @@ Partial Class Cidade
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CasinoToolStripMenuItem, Me.MuseuToolStripMenuItem, Me.SairToolStripMenuItem})
         Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
         'CasinoToolStripMenuItem
         '
         Me.CasinoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RoletaToolStripMenuItem, Me.SpaceInvadersToolStripMenuItem})
         Me.CasinoToolStripMenuItem.Name = "CasinoToolStripMenuItem"
-        Me.CasinoToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.CasinoToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.CasinoToolStripMenuItem.Text = "Casino"
         '
         'RoletaToolStripMenuItem
         '
         Me.RoletaToolStripMenuItem.Name = "RoletaToolStripMenuItem"
-        Me.RoletaToolStripMenuItem.Size = New System.Drawing.Size(177, 24)
+        Me.RoletaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RoletaToolStripMenuItem.Text = "Roleta"
         '
         'SpaceInvadersToolStripMenuItem
         '
         Me.SpaceInvadersToolStripMenuItem.Name = "SpaceInvadersToolStripMenuItem"
-        Me.SpaceInvadersToolStripMenuItem.Size = New System.Drawing.Size(177, 24)
+        Me.SpaceInvadersToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SpaceInvadersToolStripMenuItem.Text = "Space Invaders"
         '
         'MuseuToolStripMenuItem
         '
         Me.MuseuToolStripMenuItem.Name = "MuseuToolStripMenuItem"
-        Me.MuseuToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.MuseuToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.MuseuToolStripMenuItem.Text = "Museu"
         '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
@@ -110,19 +109,19 @@ Partial Class Cidade
         Me.AjudaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.AjudaToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.AjudaToolStripMenuItem.Text = "Ajuda"
         '
         'AbrirAjudaToolStripMenuItem
         '
         Me.AbrirAjudaToolStripMenuItem.Name = "AbrirAjudaToolStripMenuItem"
-        Me.AbrirAjudaToolStripMenuItem.Size = New System.Drawing.Size(154, 24)
+        Me.AbrirAjudaToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.AbrirAjudaToolStripMenuItem.Text = "Abrir Ajuda"
         '
         'SobreToolStripMenuItem
         '
         Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(154, 24)
+        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.SobreToolStripMenuItem.Text = "Sobre"
         '
         'ToolStripMenuItem1
@@ -130,47 +129,47 @@ Partial Class Cidade
         Me.ToolStripMenuItem1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(30, 24)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(26, 20)
         Me.ToolStripMenuItem1.Text = "X"
         '
         'Button1
         '
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Default
         Me.Button1.ImageKey = "(none)"
-        Me.Button1.Location = New System.Drawing.Point(960, 342)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Location = New System.Drawing.Point(720, 278)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Roleta"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(941, 397)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button3.Location = New System.Drawing.Point(706, 323)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(125, 23)
+        Me.Button3.Size = New System.Drawing.Size(94, 19)
         Me.Button3.TabIndex = 10
         Me.Button3.Text = "Space Invaders"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(960, 456)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button2.Location = New System.Drawing.Point(720, 370)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(56, 19)
         Me.Button2.TabIndex = 11
         Me.Button2.Text = "Museu"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(926, 503)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button4.Location = New System.Drawing.Point(694, 409)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(140, 23)
+        Me.Button4.Size = New System.Drawing.Size(105, 19)
         Me.Button4.TabIndex = 11
         Me.Button4.Text = "Linha Cronológica"
         Me.Button4.UseVisualStyleBackColor = True
@@ -178,29 +177,31 @@ Partial Class Cidade
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(223, 261)
+        Me.Label1.Location = New System.Drawing.Point(167, 212)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Label1"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(217, 123)
+        Me.PictureBox1.Location = New System.Drawing.Point(163, 100)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(113, 98)
+        Me.PictureBox1.Size = New System.Drawing.Size(85, 80)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
         '
         'Cidade
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Cidade1024x728
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1365, 945)
+        Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
@@ -211,7 +212,6 @@ Partial Class Cidade
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Cidade"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -73,14 +73,14 @@ Partial Class Login
         'EntrarToolStripMenuItem
         '
         Me.EntrarToolStripMenuItem.Name = "EntrarToolStripMenuItem"
-        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EntrarToolStripMenuItem.Text = "Entrar"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
-        Me.FecharToolStripMenuItem.Text = "Fechar"
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
         '
@@ -92,13 +92,13 @@ Partial Class Login
         'VerAjudaToolStripMenuItem
         '
         Me.VerAjudaToolStripMenuItem.Name = "VerAjudaToolStripMenuItem"
-        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.VerAjudaToolStripMenuItem.Text = "Ver Ajuda"
         '
         'SobreToolStripMenuItem
         '
         Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
+        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SobreToolStripMenuItem.Text = "Sobre"
         '
         'ToolStripMenuItem1

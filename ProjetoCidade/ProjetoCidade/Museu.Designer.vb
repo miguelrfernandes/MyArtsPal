@@ -135,6 +135,7 @@ Partial Class Museu
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
@@ -166,8 +167,8 @@ Partial Class Museu
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
-        Me.FecharToolStripMenuItem.Text = "Fechar"
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
         '
@@ -191,7 +192,7 @@ Partial Class Museu
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(430, 661)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 10
