@@ -34,8 +34,6 @@ Partial Class Cidade
         Me.AbrirAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -46,9 +44,9 @@ Partial Class Cidade
         '
         'sair
         '
-        Me.sair.Location = New System.Drawing.Point(110, 378)
+        Me.sair.Location = New System.Drawing.Point(33, 703)
         Me.sair.Name = "sair"
-        Me.sair.Size = New System.Drawing.Size(75, 23)
+        Me.sair.Size = New System.Drawing.Size(93, 53)
         Me.sair.TabIndex = 7
         Me.sair.Text = "Sair"
         Me.sair.UseVisualStyleBackColor = True
@@ -132,65 +130,46 @@ Partial Class Cidade
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(26, 20)
         Me.ToolStripMenuItem1.Text = "X"
         '
-        'Button1
-        '
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Button1.ImageKey = "(none)"
-        Me.Button1.Location = New System.Drawing.Point(720, 278)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(56, 19)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Roleta"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(706, 323)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(94, 19)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = "Space Invaders"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(720, 370)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(579, 154)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(56, 19)
+        Me.Button2.Size = New System.Drawing.Size(220, 61)
         Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Museu"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Text = "Museu dos Quadros"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(694, 409)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.Location = New System.Drawing.Point(570, 309)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(105, 19)
+        Me.Button4.Size = New System.Drawing.Size(229, 59)
         Me.Button4.TabIndex = 11
-        Me.Button4.Text = "Linha Cronológica"
+        Me.Button4.Text = "Museu dos Artistas"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(167, 212)
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(134, 451)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(61, 22)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Label1"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(163, 100)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(152, 154)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(85, 80)
+        Me.PictureBox1.Size = New System.Drawing.Size(180, 196)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
@@ -199,17 +178,16 @@ Partial Class Cidade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Cidade1024x728
+        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.inicio2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.sair)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
@@ -235,8 +213,6 @@ Partial Class Cidade
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RoletaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SpaceInvadersToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label

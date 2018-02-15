@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WindowsApplication1")> 
+<Assembly: AssemblyTitle("MyArtsPal")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Escola-PC")> 
-<Assembly: AssemblyProduct("WindowsApplication1")> 
-<Assembly: AssemblyCopyright("Copyright © Escola-PC 2018")> 
+<Assembly: AssemblyCompany("FrancisMichele")> 
+<Assembly: AssemblyProduct("MyArtsPal")> 
+<Assembly: AssemblyCopyright("Copyright © FrancisMichele 2018")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>

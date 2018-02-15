@@ -66,3 +66,8 @@ C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Roleta.resources
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Resources.resources
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.vbproj.GenerateResource.Cache
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\bin\Debug\MyArtsPal.exe.manifest
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\bin\Debug\MyArtsPal.application
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.exe.manifest
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.application
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Sobre.resources

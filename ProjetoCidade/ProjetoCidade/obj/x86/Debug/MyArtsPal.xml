@@ -63,7 +63,15 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Início">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

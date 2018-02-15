@@ -73,13 +73,13 @@ Partial Class Login
         'EntrarToolStripMenuItem
         '
         Me.EntrarToolStripMenuItem.Name = "EntrarToolStripMenuItem"
-        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EntrarToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.EntrarToolStripMenuItem.Text = "Entrar"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem

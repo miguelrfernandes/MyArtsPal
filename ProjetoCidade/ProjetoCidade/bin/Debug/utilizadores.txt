@@ -1,4 +1,4 @@
-8
+18
 "miguel","password","1"
 "francisco","password","1"
 "asd","asd","1"
@@ -7,3 +7,13 @@
 "1234","1234","0"
 "56","56","1"
 "5655","5655","0"
+"jonas","password","2"
+"fgh","f","-1"
+"wqe","q","-1"
+"try","r7","2"
+"asd","asd","0"
+"asd","fsdfsdf","0"
+"francisco","asd","6"
+"João ricard0","asd","5"
+"0","0","5"
+"g","g","2"

@@ -12,7 +12,7 @@ Public Class Cidade
         Museu.Show()
     End Sub
 
-    Private Sub RoletaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RoletaToolStripMenuItem.Click, Button1.Click
+    Private Sub RoletaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RoletaToolStripMenuItem.Click
         Me.Hide()
         Roleta.Show()
     End Sub
@@ -37,7 +37,7 @@ Public Class Cidade
         Dim avatarnumero As Integer = utilizadores(utilizadornumero, 2)
         PictureBox1.Image = Image.FromFile(path & "\avatar\" & avatarnumero & ".jpg")
 
-        Label1.Text = utilizadornumero.ToString + " Bem-vindo " + nomedeutilizador
+        Label1.Text = "Bem-vindo " + nomedeutilizador
     End Sub
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
@@ -47,7 +47,13 @@ Public Class Cidade
 
     End Sub
 
-    Private Sub Label1_Click(sender As System.Object, e As System.EventArgs) Handles Label1.Click
+    Private Sub AbrirAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AbrirAjudaToolStripMenuItem.Click
+        Ajuda.Show()
+
+    End Sub
+
+    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SobreToolStripMenuItem.Click
+        Sobre.Show()
 
     End Sub
 End Class

@@ -89,7 +89,7 @@ Public Class Museu
         End If
 
         If answer Then
-            MsgBox("Resposta Acertada!")
+            MsgBox("Resposta Certa!")
         Else
             MsgBox("Reposta Errada!")
         End If

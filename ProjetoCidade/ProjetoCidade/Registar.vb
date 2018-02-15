@@ -8,8 +8,7 @@ Public Class Registar
         Dim utilizador As String = tbUser.Text
         Dim password As String = tbPassword.Text
         Dim avatar As Integer = ComboBox1.SelectedIndex
-        MsgBox(avatar)
-        If utilizador <> "" And password <> "" Then
+        If utilizador <> "" And password <> "" And ComboBox1.SelectedIndex <> -1 Then
             Dim path As String = Directory.GetCurrentDirectory()
 
             'ler ficheiro

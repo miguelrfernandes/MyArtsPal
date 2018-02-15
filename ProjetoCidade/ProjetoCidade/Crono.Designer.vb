@@ -75,7 +75,7 @@ Partial Class Crono
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
         Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'PictureBox1
@@ -141,7 +141,7 @@ Partial Class Crono
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(337, 376)
+        Me.Button1.Location = New System.Drawing.Point(334, 423)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(343, 193)
         Me.Button1.TabIndex = 4
@@ -234,7 +234,7 @@ Partial Class Crono
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(349, 438)
+        Me.Label2.Location = New System.Drawing.Point(346, 508)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(331, 20)
         Me.Label2.TabIndex = 14
