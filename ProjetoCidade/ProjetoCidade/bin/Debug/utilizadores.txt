@@ -1,4 +1,4 @@
-18
+19
 "miguel","password","1"
 "francisco","password","1"
 "asd","asd","1"
@@ -17,3 +17,4 @@
 "João ricard0","asd","5"
 "0","0","5"
 "g","g","2"
+"sougordo","pilagorda","6"

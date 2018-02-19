@@ -40,7 +40,7 @@ Public Class Cidade
         Label1.Text = "Bem-vindo " + nomedeutilizador
     End Sub
 
-    Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         Me.Hide()
 
         Crono.Show()
@@ -55,6 +55,11 @@ Public Class Cidade
     Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SobreToolStripMenuItem.Click
         Sobre.Show()
 
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        Me.Hide()
+        Piano.Show()
     End Sub
 End Class
 

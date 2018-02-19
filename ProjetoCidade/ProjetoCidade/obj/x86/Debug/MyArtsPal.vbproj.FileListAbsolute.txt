@@ -71,3 +71,4 @@ C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.exe.manifest
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.application
 C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Sobre.resources
+C:\Users\Aluno.E2-INF1-12\Documents\github\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Piano.resources

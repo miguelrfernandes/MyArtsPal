@@ -43,6 +43,10 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.branca">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.casinoimagem">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -79,6 +83,10 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.linha_cronnológica">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -96,6 +104,10 @@ MyArtsPal
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.New_York_Skyline_1030x686">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.preta">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -38,6 +38,7 @@ Partial Class Cidade
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -154,12 +155,13 @@ Partial Class Cidade
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.Location = New System.Drawing.Point(134, 451)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(61, 22)
+        Me.Label1.Size = New System.Drawing.Size(111, 42)
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Label1"
         '
@@ -174,6 +176,16 @@ Partial Class Cidade
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(570, 435)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(229, 59)
+        Me.Button5.TabIndex = 11
+        Me.Button5.Text = "Piano"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Cidade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -183,6 +195,7 @@ Partial Class Cidade
         Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.sair)
@@ -217,5 +230,6 @@ Partial Class Cidade
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button5 As System.Windows.Forms.Button
 
 End Class
