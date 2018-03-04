@@ -269,7 +269,7 @@ Public Class Crono
                 Button2.Text = data
                 Button2.Location = New Point(posartista, 655)
                 If (Button2.Bounds.IntersectsWith(Button3.Bounds) Or Button2.Bounds.IntersectsWith(Button4.Bounds) Or Button2.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button2.Location = New Point(posartista, 680)
+                    Button2.Location = New Point(posartista, 685)
                 End If
                 numartista1 = numartista
             Case 2
@@ -277,7 +277,7 @@ Public Class Crono
                 Button3.Text = data
                 Button3.Location = New Point(posartista, 655)
                 If (Button3.Bounds.IntersectsWith(Button2.Bounds) Or Button3.Bounds.IntersectsWith(Button4.Bounds) Or Button3.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button3.Location = New Point(posartista, 680)
+                    Button3.Location = New Point(posartista, 685)
                 End If
                 numartista2 = numartista
             Case 3
@@ -285,7 +285,7 @@ Public Class Crono
                 Button4.Text = data
                 Button4.Location = New Point(posartista, 655)
                 If (Button4.Bounds.IntersectsWith(Button3.Bounds) Or Button4.Bounds.IntersectsWith(Button2.Bounds) Or Button4.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button4.Location = New Point(posartista, 680)
+                    Button4.Location = New Point(posartista, 685)
                 End If
                 numartista3 = numartista
             Case 4
@@ -293,7 +293,7 @@ Public Class Crono
                 Button5.Text = data
                 Button5.Location = New Point(posartista, 655)
                 If (Button5.Bounds.IntersectsWith(Button3.Bounds) Or Button5.Bounds.IntersectsWith(Button4.Bounds) Or Button5.Bounds.IntersectsWith(Button2.Bounds)) Then
-                    Button5.Location = New Point(posartista, 680)
+                    Button5.Location = New Point(posartista, 685)
                 End If
                 numartista4 = numartista
         End Select

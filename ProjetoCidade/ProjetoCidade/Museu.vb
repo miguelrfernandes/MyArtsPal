@@ -121,4 +121,8 @@ Public Class Museu
         End If
         programa()
     End Sub
+
+    Private Sub quadro_Click(sender As System.Object, e As System.EventArgs) Handles quadro.Click
+
+    End Sub
 End Class

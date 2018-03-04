@@ -293,6 +293,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone.ico" />
+    <None Include="Resources\Background 2.png" />
     <None Include="Resources\preta.gif" />
     <None Include="Resources\branca.gif" />
     <None Include="Resources\inicio1.gif" />

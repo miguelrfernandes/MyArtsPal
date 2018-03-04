@@ -46,7 +46,7 @@ Partial Class Museu
         'lbPergunta
         '
         Me.lbPergunta.AutoSize = True
-        Me.lbPergunta.Location = New System.Drawing.Point(428, 499)
+        Me.lbPergunta.Location = New System.Drawing.Point(458, 134)
         Me.lbPergunta.Name = "lbPergunta"
         Me.lbPergunta.Size = New System.Drawing.Size(101, 13)
         Me.lbPergunta.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class Museu
         '
         'bStart
         '
-        Me.bStart.Location = New System.Drawing.Point(420, 462)
+        Me.bStart.Location = New System.Drawing.Point(419, 348)
         Me.bStart.Name = "bStart"
         Me.bStart.Size = New System.Drawing.Size(169, 67)
         Me.bStart.TabIndex = 2
@@ -65,7 +65,7 @@ Partial Class Museu
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(252, 561)
+        Me.RadioButton1.Location = New System.Drawing.Point(99, 220)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton1.TabIndex = 3
@@ -77,7 +77,7 @@ Partial Class Museu
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(252, 617)
+        Me.RadioButton2.Location = New System.Drawing.Point(99, 291)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton2.TabIndex = 4
@@ -89,7 +89,7 @@ Partial Class Museu
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(570, 561)
+        Me.RadioButton3.Location = New System.Drawing.Point(816, 220)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton3.TabIndex = 5
@@ -101,7 +101,7 @@ Partial Class Museu
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(570, 617)
+        Me.RadioButton4.Location = New System.Drawing.Point(816, 291)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton4.TabIndex = 6
@@ -112,7 +112,7 @@ Partial Class Museu
         '
         'bContinuar
         '
-        Me.bContinuar.Location = New System.Drawing.Point(771, 592)
+        Me.bContinuar.Location = New System.Drawing.Point(484, 563)
         Me.bContinuar.Name = "bContinuar"
         Me.bContinuar.Size = New System.Drawing.Size(75, 23)
         Me.bContinuar.TabIndex = 7
@@ -125,9 +125,9 @@ Partial Class Museu
         Me.quadro.BackColor = System.Drawing.Color.Transparent
         Me.quadro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.quadro.Image = Global.MyArtsPal.My.Resources.Resources._1
-        Me.quadro.Location = New System.Drawing.Point(336, 156)
+        Me.quadro.Location = New System.Drawing.Point(390, 198)
         Me.quadro.Name = "quadro"
-        Me.quadro.Size = New System.Drawing.Size(354, 289)
+        Me.quadro.Size = New System.Drawing.Size(246, 272)
         Me.quadro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.quadro.TabIndex = 8
         Me.quadro.TabStop = False
@@ -161,13 +161,13 @@ Partial Class Museu
         'JogarToolStripMenuItem
         '
         Me.JogarToolStripMenuItem.Name = "JogarToolStripMenuItem"
-        Me.JogarToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.JogarToolStripMenuItem.Size = New System.Drawing.Size(102, 22)
         Me.JogarToolStripMenuItem.Text = "Jogar"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(102, 22)
         Me.FecharToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
@@ -191,7 +191,7 @@ Partial Class Museu
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(430, 661)
+        Me.Button1.Location = New System.Drawing.Point(489, 709)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(56, 19)
@@ -203,7 +203,7 @@ Partial Class Museu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Museu1024x728
+        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Background_2
         Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.quadro)
