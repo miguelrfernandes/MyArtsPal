@@ -78,3 +78,9 @@ C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\De
 C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Sobre.resources
 C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.exe.manifest
 C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.application
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\bin\Debug\MyArtsPal.exe.manifest
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\bin\Debug\MyArtsPal.application
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Piano.resources
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.Sobre.resources
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.exe.manifest
+C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Debug\MyArtsPal.application

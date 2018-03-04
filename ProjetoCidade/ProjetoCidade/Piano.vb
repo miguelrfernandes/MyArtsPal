@@ -118,4 +118,9 @@ Public Class Piano
     Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles F1.Click
 
     End Sub
+
+    Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, SairToolStripMenuItem.Click
+        Me.Close()
+        Cidade.Show()
+    End Sub
 End Class
