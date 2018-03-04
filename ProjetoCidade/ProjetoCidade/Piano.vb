@@ -54,9 +54,9 @@ Public Class Piano
             My.Computer.Audio.Play(path & "\piano\piano\" & "b1" & ".wav")
             B1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
         End If
-        If e.KeyValue = Keys.K Then
+        If e.KeyValue = Keys.Oemcomma Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "c2" & ".wav")
-            CS2.Image = Image.FromFile(path & "\piano\" & "pretapremida.gif")
+            C2.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
         End If
     End Sub
 
@@ -97,26 +97,9 @@ Public Class Piano
         If e.KeyValue = Keys.M Then
             B1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
         End If
-        If e.KeyValue = Keys.K Then
-
+        If e.KeyValue = Keys.Oemcomma Then
+            C2.Image = Image.FromFile(path & "\piano\" & "branca.gif")
         End If
-    End Sub
-
-    Private Sub C1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles C1.Click
-        My.Computer.Audio.Play(path & "\piano\piano\" & "c1" & ".wav")
-    End Sub
-
-    Private Sub CS3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CS1.Click
-        My.Computer.Audio.Play(path & "\piano\piano\" & "c1s" & ".wav")
-    End Sub
-
-
-    Private Sub D3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles D1.Click
-
-    End Sub
-
-    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles F1.Click
-
     End Sub
 
     Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, SairToolStripMenuItem.Click
