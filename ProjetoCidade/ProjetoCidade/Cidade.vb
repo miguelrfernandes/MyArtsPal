@@ -7,12 +7,12 @@ Public Class Cidade
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click, MuseuToolStripMenuItem.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Me.Hide()
         Museu.Show()
     End Sub
 
-    Private Sub RoletaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RoletaToolStripMenuItem.Click
+    Private Sub RoletaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Hide()
         Roleta.Show()
     End Sub

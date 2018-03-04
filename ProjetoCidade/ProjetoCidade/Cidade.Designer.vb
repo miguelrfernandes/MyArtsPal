@@ -25,10 +25,6 @@ Partial Class Cidade
         Me.sair = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CasinoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RoletaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SpaceInvadersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MuseuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SairToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AbrirAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -46,7 +42,7 @@ Partial Class Cidade
         'sair
         '
         Me.sair.Location = New System.Drawing.Point(44, 865)
-        Me.sair.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.sair.Margin = New System.Windows.Forms.Padding(4)
         Me.sair.Name = "sair"
         Me.sair.Size = New System.Drawing.Size(124, 65)
         Me.sair.TabIndex = 7
@@ -66,41 +62,16 @@ Partial Class Cidade
         '
         'MenuToolStripMenuItem
         '
-        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CasinoToolStripMenuItem, Me.MuseuToolStripMenuItem, Me.SairToolStripMenuItem})
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SairToolStripMenuItem})
         Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
-        'CasinoToolStripMenuItem
-        '
-        Me.CasinoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RoletaToolStripMenuItem, Me.SpaceInvadersToolStripMenuItem})
-        Me.CasinoToolStripMenuItem.Name = "CasinoToolStripMenuItem"
-        Me.CasinoToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
-        Me.CasinoToolStripMenuItem.Text = "Casino"
-        '
-        'RoletaToolStripMenuItem
-        '
-        Me.RoletaToolStripMenuItem.Name = "RoletaToolStripMenuItem"
-        Me.RoletaToolStripMenuItem.Size = New System.Drawing.Size(177, 24)
-        Me.RoletaToolStripMenuItem.Text = "Roleta"
-        '
-        'SpaceInvadersToolStripMenuItem
-        '
-        Me.SpaceInvadersToolStripMenuItem.Name = "SpaceInvadersToolStripMenuItem"
-        Me.SpaceInvadersToolStripMenuItem.Size = New System.Drawing.Size(177, 24)
-        Me.SpaceInvadersToolStripMenuItem.Text = "Space Invaders"
-        '
-        'MuseuToolStripMenuItem
-        '
-        Me.MuseuToolStripMenuItem.Name = "MuseuToolStripMenuItem"
-        Me.MuseuToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
-        Me.MuseuToolStripMenuItem.Text = "Museu"
-        '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem
@@ -203,7 +174,7 @@ Partial Class Cidade
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Cidade"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -218,15 +189,11 @@ Partial Class Cidade
     Friend WithEvents sair As System.Windows.Forms.Button
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CasinoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents MuseuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SairToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AbrirAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SobreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents RoletaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SpaceInvadersToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
