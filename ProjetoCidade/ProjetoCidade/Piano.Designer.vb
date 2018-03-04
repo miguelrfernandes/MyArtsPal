@@ -22,6 +22,7 @@ Partial Class Piano
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Piano))
         Me.C1 = New System.Windows.Forms.PictureBox()
         Me.D1 = New System.Windows.Forms.PictureBox()
         Me.E1 = New System.Windows.Forms.PictureBox()
@@ -246,6 +247,7 @@ Partial Class Piano
         Me.Controls.Add(Me.C1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Piano"

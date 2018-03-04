@@ -22,6 +22,7 @@ Partial Class Museu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Museu))
         Me.lbPergunta = New System.Windows.Forms.Label()
         Me.bStart = New System.Windows.Forms.Button()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
@@ -59,7 +60,7 @@ Partial Class Museu
         'bStart
         '
         Me.bStart.Location = New System.Drawing.Point(559, 428)
-        Me.bStart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bStart.Margin = New System.Windows.Forms.Padding(4)
         Me.bStart.Name = "bStart"
         Me.bStart.Size = New System.Drawing.Size(225, 82)
         Me.bStart.TabIndex = 2
@@ -72,7 +73,7 @@ Partial Class Museu
         Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.RadioButton1.Location = New System.Drawing.Point(132, 271)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(115, 21)
         Me.RadioButton1.TabIndex = 3
@@ -87,7 +88,7 @@ Partial Class Museu
         Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.RadioButton2.Location = New System.Drawing.Point(132, 358)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(115, 21)
         Me.RadioButton2.TabIndex = 4
@@ -102,7 +103,7 @@ Partial Class Museu
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.RadioButton3.Location = New System.Drawing.Point(1088, 271)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(115, 21)
         Me.RadioButton3.TabIndex = 5
@@ -117,7 +118,7 @@ Partial Class Museu
         Me.RadioButton4.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton4.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.RadioButton4.Location = New System.Drawing.Point(1088, 358)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(115, 21)
         Me.RadioButton4.TabIndex = 6
@@ -129,7 +130,7 @@ Partial Class Museu
         'bContinuar
         '
         Me.bContinuar.Location = New System.Drawing.Point(645, 693)
-        Me.bContinuar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.bContinuar.Margin = New System.Windows.Forms.Padding(4)
         Me.bContinuar.Name = "bContinuar"
         Me.bContinuar.Size = New System.Drawing.Size(100, 28)
         Me.bContinuar.TabIndex = 7
@@ -143,7 +144,7 @@ Partial Class Museu
         Me.quadro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.quadro.Image = Global.MyArtsPal.My.Resources.Resources._1
         Me.quadro.Location = New System.Drawing.Point(520, 244)
-        Me.quadro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.quadro.Margin = New System.Windows.Forms.Padding(4)
         Me.quadro.Name = "quadro"
         Me.quadro.Size = New System.Drawing.Size(328, 335)
         Me.quadro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -234,8 +235,9 @@ Partial Class Museu
         Me.Controls.Add(Me.lbPergunta)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Museu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Museu — Quiz"

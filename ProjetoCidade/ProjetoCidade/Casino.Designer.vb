@@ -22,6 +22,7 @@ Partial Class Casino
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Casino))
         Me.bSpaceInvaders = New System.Windows.Forms.Button()
         Me.bRoleta = New System.Windows.Forms.Button()
         Me.bVoltar = New System.Windows.Forms.Button()
@@ -29,39 +30,44 @@ Partial Class Casino
         '
         'bSpaceInvaders
         '
-        Me.bSpaceInvaders.Location = New System.Drawing.Point(148, 51)
+        Me.bSpaceInvaders.Location = New System.Drawing.Point(197, 63)
+        Me.bSpaceInvaders.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bSpaceInvaders.Name = "bSpaceInvaders"
-        Me.bSpaceInvaders.Size = New System.Drawing.Size(88, 23)
+        Me.bSpaceInvaders.Size = New System.Drawing.Size(117, 28)
         Me.bSpaceInvaders.TabIndex = 0
         Me.bSpaceInvaders.Text = "SpaceInvaders"
         Me.bSpaceInvaders.UseVisualStyleBackColor = True
         '
         'bRoleta
         '
-        Me.bRoleta.Location = New System.Drawing.Point(50, 51)
+        Me.bRoleta.Location = New System.Drawing.Point(67, 63)
+        Me.bRoleta.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bRoleta.Name = "bRoleta"
-        Me.bRoleta.Size = New System.Drawing.Size(75, 23)
+        Me.bRoleta.Size = New System.Drawing.Size(100, 28)
         Me.bRoleta.TabIndex = 1
         Me.bRoleta.Text = "Roleta"
         Me.bRoleta.UseVisualStyleBackColor = True
         '
         'bVoltar
         '
-        Me.bVoltar.Location = New System.Drawing.Point(99, 176)
+        Me.bVoltar.Location = New System.Drawing.Point(132, 217)
+        Me.bVoltar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bVoltar.Name = "bVoltar"
-        Me.bVoltar.Size = New System.Drawing.Size(75, 23)
+        Me.bVoltar.Size = New System.Drawing.Size(100, 28)
         Me.bVoltar.TabIndex = 2
         Me.bVoltar.Text = "Voltar"
         Me.bVoltar.UseVisualStyleBackColor = True
         '
         'Casino
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 729)
+        Me.ClientSize = New System.Drawing.Size(1344, 897)
         Me.Controls.Add(Me.bVoltar)
         Me.Controls.Add(Me.bRoleta)
         Me.Controls.Add(Me.bSpaceInvaders)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "Casino"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
