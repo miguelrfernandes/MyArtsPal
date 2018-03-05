@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyArtsPal.exe" size="21448192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyArtsPal.exe" size="22290432">
       <assemblyIdentity name="MyArtsPal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9ZA5C4kdbvY7WWsNgqzPOSVmqMg=</dsig:DigestValue>
+        <dsig:DigestValue>/HGSSD0aJVC5WV/ewjaiaBZDFB8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
