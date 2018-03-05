@@ -43,12 +43,12 @@ Public Class Login
         Me.Close()
     End Sub
 
-    Private Sub VerAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles VerAjudaToolStripMenuItem.Click
+    Private Sub VerAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Ajuda.Show()
 
     End Sub
 
-    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SobreToolStripMenuItem.Click
+    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Sobre.Show()
 
     End Sub

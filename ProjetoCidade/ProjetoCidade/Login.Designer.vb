@@ -29,9 +29,6 @@ Partial Class Login
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EntrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FecharToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VerAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -42,7 +39,7 @@ Partial Class Login
         'tbNome
         '
         Me.tbNome.Location = New System.Drawing.Point(347, 297)
-        Me.tbNome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbNome.Margin = New System.Windows.Forms.Padding(4)
         Me.tbNome.Name = "tbNome"
         Me.tbNome.Size = New System.Drawing.Size(208, 22)
         Me.tbNome.TabIndex = 2
@@ -50,7 +47,7 @@ Partial Class Login
         'tbPassword
         '
         Me.tbPassword.Location = New System.Drawing.Point(347, 348)
-        Me.tbPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.tbPassword.Margin = New System.Windows.Forms.Padding(4)
         Me.tbPassword.Name = "tbPassword"
         Me.tbPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tbPassword.Size = New System.Drawing.Size(208, 22)
@@ -59,7 +56,7 @@ Partial Class Login
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem, Me.ToolStripMenuItem1})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
@@ -85,25 +82,6 @@ Partial Class Login
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
         Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(117, 24)
         Me.FecharToolStripMenuItem.Text = "Sair"
-        '
-        'AjudaToolStripMenuItem
-        '
-        Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerAjudaToolStripMenuItem, Me.SobreToolStripMenuItem})
-        Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
-        Me.AjudaToolStripMenuItem.Text = "Ajuda"
-        '
-        'VerAjudaToolStripMenuItem
-        '
-        Me.VerAjudaToolStripMenuItem.Name = "VerAjudaToolStripMenuItem"
-        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
-        Me.VerAjudaToolStripMenuItem.Text = "Ver Ajuda"
-        '
-        'SobreToolStripMenuItem
-        '
-        Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
-        Me.SobreToolStripMenuItem.Text = "Sobre"
         '
         'ToolStripMenuItem1
         '
@@ -158,7 +136,7 @@ Partial Class Login
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -175,9 +153,6 @@ Partial Class Login
     Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EntrarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FecharToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VerAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SobreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button

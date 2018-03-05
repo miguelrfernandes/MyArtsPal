@@ -36,9 +36,6 @@ Partial Class Museu
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.JogarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FecharToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VerAjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.quadro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
@@ -48,7 +45,7 @@ Partial Class Museu
         '
         Me.lbPergunta.AutoSize = True
         Me.lbPergunta.BackColor = System.Drawing.Color.Transparent
-        Me.lbPergunta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lbPergunta.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.lbPergunta.Location = New System.Drawing.Point(611, 165)
         Me.lbPergunta.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbPergunta.Name = "lbPergunta"
@@ -155,7 +152,7 @@ Partial Class Museu
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.MenuToolStripMenuItem, Me.AjudaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XToolStripMenuItem, Me.MenuToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
@@ -166,6 +163,7 @@ Partial Class Museu
         'XToolStripMenuItem
         '
         Me.XToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.XToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
         Me.XToolStripMenuItem.Size = New System.Drawing.Size(30, 24)
         Me.XToolStripMenuItem.Text = "X"
@@ -173,6 +171,7 @@ Partial Class Museu
         'MenuToolStripMenuItem
         '
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.JogarToolStripMenuItem, Me.FecharToolStripMenuItem})
+        Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
         Me.MenuToolStripMenuItem.Text = "Menu"
@@ -180,33 +179,14 @@ Partial Class Museu
         'JogarToolStripMenuItem
         '
         Me.JogarToolStripMenuItem.Name = "JogarToolStripMenuItem"
-        Me.JogarToolStripMenuItem.Size = New System.Drawing.Size(114, 24)
+        Me.JogarToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
         Me.JogarToolStripMenuItem.Text = "Jogar"
         '
         'FecharToolStripMenuItem
         '
         Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
-        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(114, 24)
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
         Me.FecharToolStripMenuItem.Text = "Sair"
-        '
-        'AjudaToolStripMenuItem
-        '
-        Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerAjudaToolStripMenuItem, Me.SobreToolStripMenuItem})
-        Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
-        Me.AjudaToolStripMenuItem.Text = "Ajuda"
-        '
-        'VerAjudaToolStripMenuItem
-        '
-        Me.VerAjudaToolStripMenuItem.Name = "VerAjudaToolStripMenuItem"
-        Me.VerAjudaToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
-        Me.VerAjudaToolStripMenuItem.Text = "Ver Ajuda"
-        '
-        'SobreToolStripMenuItem
-        '
-        Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
-        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(142, 24)
-        Me.SobreToolStripMenuItem.Text = "Sobre"
         '
         'Button1
         '
@@ -259,10 +239,7 @@ Partial Class Museu
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents XToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents JogarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents FecharToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VerAjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SobreToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

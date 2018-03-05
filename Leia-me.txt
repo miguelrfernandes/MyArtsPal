@@ -1,0 +1,9 @@
+Descomprima o ficheiro para uma pasta à sua escolha
+
+Para abrir o programa ir a
+MyArtsPal-master>ProjetoCidade>ProjetoCidade>bin>Debug
+
+e abrir MyArtsPal.exe
+
+Depois de abrir o programa escolha um avatar, um nome de utilizador e uma password e registe-se.
+De seguida poderá entrar com a sua conta.

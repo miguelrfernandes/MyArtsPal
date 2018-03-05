@@ -45,11 +45,11 @@ Public Class Registar
         Me.Close()
     End Sub
 
-    Private Sub AbrirAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AbrirAjudaToolStripMenuItem.Click
+    Private Sub AbrirAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Ajuda.Show()
     End Sub
 
-    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SobreToolStripMenuItem.Click
+    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Sobre.Show()
     End Sub
 
