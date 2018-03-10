@@ -8,102 +8,118 @@ Public Class Piano
     Private Sub piano(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown
         If e.KeyValue = Keys.Z Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "c1" & ".wav")
-            C1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            C1.Show()
+            C1.Image = Image.FromFile(path & "\piano\" & "c1.gif")
         End If
         If e.KeyValue = Keys.S Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "c1s" & ".wav")
-            CS1.Image = Image.FromFile(path & "\piano\" & "pretapremida.png")
+            CS1.Show()
+            CS1.Image = Image.FromFile(path & "\piano\" & "cs1.gif")
         End If
         If e.KeyValue = Keys.X Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "d1" & ".wav")
-            D1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            D1.Show()
+            D1.Image = Image.FromFile(path & "\piano\" & "d1.gif")
         End If
         If e.KeyValue = Keys.D Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "d1s" & ".wav")
-            DS1.Image = Image.FromFile(path & "\piano\" & "pretapremida.png")
+            DS1.Show()
+            DS1.Image = Image.FromFile(path & "\piano\" & "ds1.gif")
         End If
         If e.KeyValue = Keys.C Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "e1" & ".wav")
-            E1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            E1.Show()
+            E1.Image = Image.FromFile(path & "\piano\" & "e1.gif")
         End If
         If e.KeyValue = Keys.V Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "f1" & ".wav")
-            F1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            F1.Show()
+            F1.Image = Image.FromFile(path & "\piano\" & "f1.gif")
         End If
         If e.KeyValue = Keys.G Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "f1s" & ".wav")
-            FS1.Image = Image.FromFile(path & "\piano\" & "pretapremida.png")
+            FS1.Show()
+            FS1.Image = Image.FromFile(path & "\piano\" & "fs1.gif")
         End If
         If e.KeyValue = Keys.B Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "g1" & ".wav")
-            G1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            G1.Show()
+            G1.Image = Image.FromFile(path & "\piano\" & "g1.gif")
         End If
         If e.KeyValue = Keys.H Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "g1s" & ".wav")
-            GS1.Image = Image.FromFile(path & "\piano\" & "pretapremida.png")
+            GS1.Show()
+            GS1.Image = Image.FromFile(path & "\piano\" & "gs1.gif")
         End If
         If e.KeyValue = Keys.N Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "a1" & ".wav")
-            A1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            A1.Show()
+            A1.Image = Image.FromFile(path & "\piano\" & "a1.gif")
         End If
         If e.KeyValue = Keys.J Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "a1s" & ".wav")
-            AS1.Image = Image.FromFile(path & "\piano\" & "pretapremida.png")
+            AS1.Image = Image.FromFile(path & "\piano\" & "as1.gif")
         End If
         If e.KeyValue = Keys.M Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "b1" & ".wav")
-            B1.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            B1.Show()
+            B1.Image = Image.FromFile(path & "\piano\" & "b1.gif")
         End If
         If e.KeyValue = Keys.Oemcomma Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "c2" & ".wav")
-            C2.Image = Image.FromFile(path & "\piano\" & "brancapremida.gif")
+            C2.Show()
+            C2.Image = Image.FromFile(path & "\piano\" & "c2.gif")
         End If
     End Sub
 
     Private Sub movestart(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyUp
         If e.KeyValue = Keys.Z Then
-            C1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            C1.Hide()
         End If
         If e.KeyValue = Keys.S Then
-            CS1.Image = Image.FromFile(path & "\piano\" & "preta.gif")
+            CS1.Hide()
         End If
         If e.KeyValue = Keys.X Then
-            D1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            D1.Hide()
         End If
         If e.KeyValue = Keys.D Then
-            DS1.Image = Image.FromFile(path & "\piano\" & "preta.gif")
+            DS1.Hide()
         End If
         If e.KeyValue = Keys.C Then
-            E1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            E1.Hide()
         End If
         If e.KeyValue = Keys.V Then
-            F1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            F1.Hide()
         End If
         If e.KeyValue = Keys.G Then
-            FS1.Image = Image.FromFile(path & "\piano\" & "preta.gif")
+            FS1.Hide()
         End If
         If e.KeyValue = Keys.B Then
-            G1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            G1.Hide()
         End If
         If e.KeyValue = Keys.H Then
-            GS1.Image = Image.FromFile(path & "\piano\" & "preta.gif")
+            GS1.Hide()
         End If
         If e.KeyValue = Keys.N Then
-            A1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            A1.Hide()
         End If
         If e.KeyValue = Keys.J Then
-            AS1.Image = Image.FromFile(path & "\piano\" & "preta.gif")
+            AS1.Hide()
         End If
         If e.KeyValue = Keys.M Then
-            B1.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            B1.Hide()
         End If
         If e.KeyValue = Keys.Oemcomma Then
-            C2.Image = Image.FromFile(path & "\piano\" & "branca.gif")
+            C2.Hide()
         End If
     End Sub
 
     Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, SairToolStripMenuItem.Click
         Me.Close()
         Cidade.Show()
+    End Sub
+
+    Private Sub C1_Click(sender As System.Object, e As System.EventArgs) Handles C1.Click
+
     End Sub
 End Class

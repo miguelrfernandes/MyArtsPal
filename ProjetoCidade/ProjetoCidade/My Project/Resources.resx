@@ -169,9 +169,6 @@
   <data name="Museu1024x728" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Museu1024x728.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="casinoimagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\casinoimagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,6 +184,9 @@
   <data name="Início1024x728" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Início1024x728.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Background 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bigstock-empty-room-with-blank-wall-and-50388350" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bigstock-empty-room-with-blank-wall-and-50388350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,13 +199,16 @@
   <data name="Escala Cronológica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Escala Cronológica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="casinoimagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\casinoimagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Background 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Background 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="piano keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\piano keyboard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
