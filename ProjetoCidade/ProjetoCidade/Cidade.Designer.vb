@@ -35,9 +35,10 @@ Partial Class Cidade
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'sair
@@ -63,7 +64,7 @@ Partial Class Cidade
         'MenuToolStripMenuItem
         '
         Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SairToolStripMenuItem})
-        Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.MenuToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.MenuToolStripMenuItem.Text = "Menu"
@@ -77,7 +78,7 @@ Partial Class Cidade
         'AjudaToolStripMenuItem
         '
         Me.AjudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AbrirAjudaToolStripMenuItem, Me.SobreToolStripMenuItem})
-        Me.AjudaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.AjudaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.AjudaToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.White
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
         Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
@@ -98,7 +99,7 @@ Partial Class Cidade
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.ToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.ToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(26, 20)
         Me.ToolStripMenuItem1.Text = "X"
@@ -106,31 +107,40 @@ Partial Class Cidade
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(579, 154)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button2.Location = New System.Drawing.Point(307, 219)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(220, 61)
+        Me.Button2.Size = New System.Drawing.Size(70, 51)
         Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Museu dos Quadros"
+        Me.Button2.Text = "Sala dos Quadros"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(570, 309)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button4.Location = New System.Drawing.Point(651, 219)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(229, 59)
+        Me.Button4.Size = New System.Drawing.Size(71, 51)
         Me.Button4.TabIndex = 11
-        Me.Button4.Text = "Museu dos Artistas"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.Text = "Sala dos Artistas"
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 25.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(196, 434)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label1.Location = New System.Drawing.Point(457, 526)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(104, 42)
@@ -139,35 +149,36 @@ Partial Class Cidade
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(152, 154)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(273, 526)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(180, 196)
+        Me.PictureBox1.Size = New System.Drawing.Size(180, 175)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 13
         Me.PictureBox1.TabStop = False
         '
-        'Button5
+        'PictureBox2
         '
-        Me.Button5.Location = New System.Drawing.Point(570, 435)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(229, 59)
-        Me.Button5.TabIndex = 11
-        Me.Button5.Text = "Piano"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox2.Location = New System.Drawing.Point(448, 315)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(132, 187)
+        Me.PictureBox2.TabIndex = 14
+        Me.PictureBox2.TabStop = False
         '
         'Cidade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.inicio2
+        Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Museum_Entrance
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.sair)
@@ -183,6 +194,7 @@ Partial Class Cidade
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -199,6 +211,6 @@ Partial Class Cidade
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 
 End Class

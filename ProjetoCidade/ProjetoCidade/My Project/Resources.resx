@@ -169,6 +169,9 @@
   <data name="Museu1024x728" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Museu1024x728.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="casinoimagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\casinoimagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +180,9 @@
   </data>
   <data name="cidadeimagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cidadeimagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Museum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Museum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="New-York-Skyline-1030x686" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New-York-Skyline-1030x686.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +205,8 @@
   <data name="Escala Cronológica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Escala Cronológica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="casinoimagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\casinoimagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="piano keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\piano keyboard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,7 +214,7 @@
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="piano keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\piano keyboard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Museum Entrance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Museum Entrance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

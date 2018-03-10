@@ -293,6 +293,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Museum() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Museum", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Museum_Entrance() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Museum Entrance", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property New_York_Skyline_1030x686() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("New-York-Skyline-1030x686", resourceCulture)

@@ -57,7 +57,7 @@ Public Class Cidade
 
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub PictureBox2_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox2.Click
         Me.Hide()
         Piano.Show()
     End Sub
