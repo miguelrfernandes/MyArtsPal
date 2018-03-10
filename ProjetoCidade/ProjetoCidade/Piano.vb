@@ -58,6 +58,7 @@ Public Class Piano
         End If
         If e.KeyValue = Keys.J Then
             My.Computer.Audio.Play(path & "\piano\piano\" & "a1s" & ".wav")
+            AS1.Show()
             AS1.Image = Image.FromFile(path & "\piano\" & "as1.gif")
         End If
         If e.KeyValue = Keys.M Then
