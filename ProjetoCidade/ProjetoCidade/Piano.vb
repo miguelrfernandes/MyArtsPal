@@ -120,7 +120,5 @@ Public Class Piano
         Cidade.Show()
     End Sub
 
-    Private Sub C1_Click(sender As System.Object, e As System.EventArgs) Handles C1.Click
 
-    End Sub
 End Class

@@ -43,7 +43,7 @@ Public Class Crono
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-
+        MsgBox("Oh não!" + vbNewLine + "O Francisco riscou a data de todos os quadros. Consegues associar corretamente a data a cada obra?")
 
 
 
@@ -270,6 +270,9 @@ Public Class Crono
                 Button2.Location = New Point(posartista, 655)
                 If (Button2.Bounds.IntersectsWith(Button3.Bounds) Or Button2.Bounds.IntersectsWith(Button4.Bounds) Or Button2.Bounds.IntersectsWith(Button5.Bounds)) Then
                     Button2.Location = New Point(posartista, 685)
+                    If (Button2.Bounds.IntersectsWith(Button3.Bounds) Or Button2.Bounds.IntersectsWith(Button4.Bounds) Or Button2.Bounds.IntersectsWith(Button5.Bounds)) Then
+                        Button2.Location = New Point(posartista, 715)
+                    End If
                 End If
                 numartista1 = numartista
             Case 2
@@ -278,6 +281,9 @@ Public Class Crono
                 Button3.Location = New Point(posartista, 655)
                 If (Button3.Bounds.IntersectsWith(Button2.Bounds) Or Button3.Bounds.IntersectsWith(Button4.Bounds) Or Button3.Bounds.IntersectsWith(Button5.Bounds)) Then
                     Button3.Location = New Point(posartista, 685)
+                    If (Button3.Bounds.IntersectsWith(Button2.Bounds) Or Button3.Bounds.IntersectsWith(Button4.Bounds) Or Button3.Bounds.IntersectsWith(Button5.Bounds)) Then
+                        Button3.Location = New Point(posartista, 715)
+                    End If
                 End If
                 numartista2 = numartista
             Case 3
@@ -286,6 +292,9 @@ Public Class Crono
                 Button4.Location = New Point(posartista, 655)
                 If (Button4.Bounds.IntersectsWith(Button3.Bounds) Or Button4.Bounds.IntersectsWith(Button2.Bounds) Or Button4.Bounds.IntersectsWith(Button5.Bounds)) Then
                     Button4.Location = New Point(posartista, 685)
+                    If (Button4.Bounds.IntersectsWith(Button3.Bounds) Or Button4.Bounds.IntersectsWith(Button2.Bounds) Or Button4.Bounds.IntersectsWith(Button5.Bounds)) Then
+                        Button4.Location = New Point(posartista, 715)
+                    End If
                 End If
                 numartista3 = numartista
             Case 4
@@ -294,6 +303,9 @@ Public Class Crono
                 Button5.Location = New Point(posartista, 655)
                 If (Button5.Bounds.IntersectsWith(Button3.Bounds) Or Button5.Bounds.IntersectsWith(Button4.Bounds) Or Button5.Bounds.IntersectsWith(Button2.Bounds)) Then
                     Button5.Location = New Point(posartista, 685)
+                    If (Button5.Bounds.IntersectsWith(Button3.Bounds) Or Button5.Bounds.IntersectsWith(Button4.Bounds) Or Button5.Bounds.IntersectsWith(Button2.Bounds)) Then
+                        Button5.Location = New Point(posartista, 715)
+                    End If
                 End If
                 numartista4 = numartista
         End Select

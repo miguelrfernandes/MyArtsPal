@@ -38,19 +38,21 @@ Partial Class Login
         '
         'tbNome
         '
+        Me.tbNome.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbNome.Location = New System.Drawing.Point(347, 297)
         Me.tbNome.Margin = New System.Windows.Forms.Padding(4)
         Me.tbNome.Name = "tbNome"
-        Me.tbNome.Size = New System.Drawing.Size(208, 22)
+        Me.tbNome.Size = New System.Drawing.Size(208, 34)
         Me.tbNome.TabIndex = 2
         '
         'tbPassword
         '
+        Me.tbPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbPassword.Location = New System.Drawing.Point(347, 348)
         Me.tbPassword.Margin = New System.Windows.Forms.Padding(4)
         Me.tbPassword.Name = "tbPassword"
         Me.tbPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.tbPassword.Size = New System.Drawing.Size(208, 22)
+        Me.tbPassword.Size = New System.Drawing.Size(208, 34)
         Me.tbPassword.TabIndex = 3
         '
         'MenuStrip1
@@ -102,20 +104,22 @@ Partial Class Login
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(407, 469)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(394, 469)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(112, 45)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Fechar"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(407, 422)
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(394, 420)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.Size = New System.Drawing.Size(112, 45)
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Entrar"
         Me.Button3.UseVisualStyleBackColor = True

@@ -97,6 +97,7 @@ Public Class Museu
     End Sub
 
     Private Sub bStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bStart.Click
+        MsgBox("Oh não!" + vbNewLine + "O Miguel arrancou a legenda de todos os quadros. Consegues associar corretamente o nome a cada obra?")
         bStart.Hide()
         For i As Integer = 0 To 9
             registo(i) = 0
@@ -120,9 +121,5 @@ Public Class Museu
             resposta()
         End If
         programa()
-    End Sub
-
-    Private Sub quadro_Click(sender As System.Object, e As System.EventArgs) Handles quadro.Click
-
     End Sub
 End Class

@@ -23,8 +23,8 @@ Public Class Login
             If utilizador = utilizadores(i, 0) Then
                 If password = utilizadores(i, 1) Then
                     utilizadornumero = i
-                    Inicio.Hide()
                     Cidade.Show()
+                    Inicio.Hide()
                     loginSucedido = True
                     Me.Hide()
                 End If
@@ -41,15 +41,5 @@ Public Class Login
 
     Private Sub FecharToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FecharToolStripMenuItem.Click, Button2.Click, ToolStripMenuItem1.Click
         Me.Close()
-    End Sub
-
-    Private Sub VerAjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Ajuda.Show()
-
-    End Sub
-
-    Private Sub SobreToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Sobre.Show()
-
     End Sub
 End Class
