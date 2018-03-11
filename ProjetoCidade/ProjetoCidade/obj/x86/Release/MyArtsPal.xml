@@ -27,6 +27,10 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.Background_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Background1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -40,6 +44,10 @@ MyArtsPal
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.bigstock_empty_room_with_blank_wall_and_50388350">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.branca">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -63,11 +71,23 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Início">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Início1024x728">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.inicio2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -87,7 +107,23 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.Museum">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.Museum_Entrance">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.New_York_Skyline_1030x686">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.piano_keyboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.preta">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
