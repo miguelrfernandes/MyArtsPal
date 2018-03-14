@@ -59,19 +59,19 @@ Partial Class Inicio
         'AjudaToolStripMenuItem
         '
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.AjudaToolStripMenuItem.Text = "Entrar"
         '
         'RegistarToolStripMenuItem
         '
         Me.RegistarToolStripMenuItem.Name = "RegistarToolStripMenuItem"
-        Me.RegistarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RegistarToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.RegistarToolStripMenuItem.Text = "Registar"
         '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
         'AjudaToolStripMenuItem1
@@ -153,7 +153,7 @@ Partial Class Inicio
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Museum
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.ClientSize = New System.Drawing.Size(1024, 728)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button4)

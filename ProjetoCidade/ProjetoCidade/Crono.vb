@@ -267,44 +267,44 @@ Public Class Crono
             Case 1
                 PictureBox1.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button2.Text = data
-                Button2.Location = New Point(posartista, 655)
+                Button2.Location = New Point(posartista, 635)
                 If (Button2.Bounds.IntersectsWith(Button3.Bounds) Or Button2.Bounds.IntersectsWith(Button4.Bounds) Or Button2.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button2.Location = New Point(posartista, 685)
+                    Button2.Location = New Point(posartista, 655)
                     If (Button2.Bounds.IntersectsWith(Button3.Bounds) Or Button2.Bounds.IntersectsWith(Button4.Bounds) Or Button2.Bounds.IntersectsWith(Button5.Bounds)) Then
-                        Button2.Location = New Point(posartista, 715)
+                        Button2.Location = New Point(posartista, 685)
                     End If
                 End If
                 numartista1 = numartista
             Case 2
                 PictureBox2.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button3.Text = data
-                Button3.Location = New Point(posartista, 655)
+                Button3.Location = New Point(posartista, 635)
                 If (Button3.Bounds.IntersectsWith(Button2.Bounds) Or Button3.Bounds.IntersectsWith(Button4.Bounds) Or Button3.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button3.Location = New Point(posartista, 685)
+                    Button3.Location = New Point(posartista, 655)
                     If (Button3.Bounds.IntersectsWith(Button2.Bounds) Or Button3.Bounds.IntersectsWith(Button4.Bounds) Or Button3.Bounds.IntersectsWith(Button5.Bounds)) Then
-                        Button3.Location = New Point(posartista, 715)
+                        Button3.Location = New Point(posartista, 685)
                     End If
                 End If
                 numartista2 = numartista
             Case 3
                 PictureBox3.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button4.Text = data
-                Button4.Location = New Point(posartista, 655)
+                Button4.Location = New Point(posartista, 635)
                 If (Button4.Bounds.IntersectsWith(Button3.Bounds) Or Button4.Bounds.IntersectsWith(Button2.Bounds) Or Button4.Bounds.IntersectsWith(Button5.Bounds)) Then
-                    Button4.Location = New Point(posartista, 685)
+                    Button4.Location = New Point(posartista, 655)
                     If (Button4.Bounds.IntersectsWith(Button3.Bounds) Or Button4.Bounds.IntersectsWith(Button2.Bounds) Or Button4.Bounds.IntersectsWith(Button5.Bounds)) Then
-                        Button4.Location = New Point(posartista, 715)
+                        Button4.Location = New Point(posartista, 685)
                     End If
                 End If
                 numartista3 = numartista
             Case 4
                 PictureBox4.Image = Image.FromFile(path & "\artistas\" & numartista & ".jpg")
                 Button5.Text = data
-                Button5.Location = New Point(posartista, 655)
+                Button5.Location = New Point(posartista, 635)
                 If (Button5.Bounds.IntersectsWith(Button3.Bounds) Or Button5.Bounds.IntersectsWith(Button4.Bounds) Or Button5.Bounds.IntersectsWith(Button2.Bounds)) Then
-                    Button5.Location = New Point(posartista, 685)
+                    Button5.Location = New Point(posartista, 655)
                     If (Button5.Bounds.IntersectsWith(Button3.Bounds) Or Button5.Bounds.IntersectsWith(Button4.Bounds) Or Button5.Bounds.IntersectsWith(Button2.Bounds)) Then
-                        Button5.Location = New Point(posartista, 715)
+                        Button5.Location = New Point(posartista, 685)
                     End If
                 End If
                 numartista4 = numartista

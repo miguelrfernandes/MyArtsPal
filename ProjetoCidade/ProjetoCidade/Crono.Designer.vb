@@ -84,7 +84,7 @@ Partial Class Crono
         Me.PictureBox1.BackColor = System.Drawing.Color.Gray
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Location = New System.Drawing.Point(59, 243)
+        Me.PictureBox1.Location = New System.Drawing.Point(59, 202)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -98,7 +98,7 @@ Partial Class Crono
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(375, 155)
+        Me.Label1.Location = New System.Drawing.Point(374, 121)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(261, 20)
         Me.Label1.TabIndex = 2
@@ -110,7 +110,7 @@ Partial Class Crono
         Me.PictureBox2.BackColor = System.Drawing.Color.Gray
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Location = New System.Drawing.Point(312, 243)
+        Me.PictureBox2.Location = New System.Drawing.Point(312, 202)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -123,7 +123,7 @@ Partial Class Crono
         Me.PictureBox3.BackColor = System.Drawing.Color.Gray
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Location = New System.Drawing.Point(569, 243)
+        Me.PictureBox3.Location = New System.Drawing.Point(571, 202)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -136,7 +136,7 @@ Partial Class Crono
         Me.PictureBox4.BackColor = System.Drawing.Color.Gray
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Location = New System.Drawing.Point(825, 243)
+        Me.PictureBox4.Location = New System.Drawing.Point(824, 202)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(142, 156)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -152,7 +152,7 @@ Partial Class Crono
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(406, 508)
+        Me.Button1.Location = New System.Drawing.Point(408, 424)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(238, 81)
         Me.Button1.TabIndex = 4
@@ -236,7 +236,7 @@ Partial Class Crono
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Escala_Cronológica
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox5.Location = New System.Drawing.Point(0, -3)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, -54)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(1024, 668)
         Me.PictureBox5.TabIndex = 13
@@ -249,7 +249,7 @@ Partial Class Crono
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(321, 508)
+        Me.Label2.Location = New System.Drawing.Point(308, 465)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(395, 20)
         Me.Label2.TabIndex = 14
@@ -261,7 +261,7 @@ Partial Class Crono
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.MyArtsPal.My.Resources.Resources.Background3
-        Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.ClientSize = New System.Drawing.Size(1024, 726)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
