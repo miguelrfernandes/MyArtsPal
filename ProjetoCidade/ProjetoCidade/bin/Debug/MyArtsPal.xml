@@ -67,6 +67,14 @@ MyArtsPal
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.EntrarRegistar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.EntrarRegistar1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.Escala_Cronológica">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -88,6 +96,10 @@ MyArtsPal
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:MyArtsPal.My.Resources.Resources.inicio2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MyArtsPal.My.Resources.Resources.ipad_front">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

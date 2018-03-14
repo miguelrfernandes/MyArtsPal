@@ -193,6 +193,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property EntrarRegistar() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("EntrarRegistar", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property EntrarRegistar1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("EntrarRegistar1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Escala_Cronológica() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Escala Cronológica", resourceCulture)
@@ -246,6 +266,16 @@ Namespace My.Resources
         Friend ReadOnly Property inicio2() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("inicio2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ipad_front() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ipad-front", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

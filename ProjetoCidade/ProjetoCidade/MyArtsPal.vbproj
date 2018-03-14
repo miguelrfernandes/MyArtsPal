@@ -293,6 +293,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone.ico" />
+    <None Include="Resources\EntrarRegistar.jpg" />
+    <None Include="Resources\ipad-front.png" />
     <None Include="Resources\Museum Entrance.jpg" />
     <None Include="Resources\Museum.jpg" />
     <None Include="Resources\piano keyboard.jpg" />

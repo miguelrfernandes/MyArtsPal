@@ -110,7 +110,7 @@ Public Class Museu
         programa()
     End Sub
 
-    Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, FecharToolStripMenuItem.Click, Button1.Click
+    Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, FecharToolStripMenuItem.Click
         Me.Hide()
         Cidade.Show()
     End Sub

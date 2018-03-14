@@ -2,12 +2,12 @@
 Imports System.IO
 Public Class Cidade
 
-    Private Sub sair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles sair.Click, ToolStripMenuItem1.Click, SairToolStripMenuItem.Click
+    Private Sub sair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem1.Click, SairToolStripMenuItem.Click
         Inicio.Close()
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click, SalaDosQuadrosToolStripMenuItem.Click
+    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click, SalaDosQuadrosToolStripMenuItem.Click
         Me.Hide()
         Museu.Show()
     End Sub
@@ -37,7 +37,7 @@ Public Class Cidade
         Label1.Text = "Bem-vindo " + nomedeutilizador
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click, SalaDosArtistasToolStripMenuItem.Click
+    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click, SalaDosArtistasToolStripMenuItem.Click
         Me.Hide()
 
         Crono.Show()

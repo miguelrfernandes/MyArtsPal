@@ -42,3 +42,6 @@ C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\
 C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.exe
 C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.xml
 C:\Users\Migue\OneDrive\Documentos\GitHub\MyArtsPal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.pdb
+C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.exe
+C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.xml
+C:\Users\Silva\Documents\GitHub\myartspal\ProjetoCidade\ProjetoCidade\obj\x86\Release\MyArtsPal.pdb

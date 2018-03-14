@@ -58,4 +58,8 @@ Public Class Registar
         Dim path As String = Directory.GetCurrentDirectory()
         PictureBox1.Image = Image.FromFile(path & "\avatar\" & avatar & ".jpg")
     End Sub
+
+    Private Sub MenuStrip1_ItemClicked(sender As System.Object, e As System.Windows.Forms.ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+
+    End Sub
 End Class
